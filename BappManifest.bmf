@@ -1,0 +1,12 @@
+Uuid: 195fff8fc1b2414891541d23ea53a797
+ExtensionType: 1
+Name: PeachApiSec-Burp
+RepoName: peachapisec-burp
+ScreenVersion: 1.0.0
+SerialVersion: 0
+MinPlatformVersion: 0
+ProOnly: False
+Author: Peach Tech
+ShortDescription: Peach API Security integration, perform tests and view results from Burp.
+EntryPoint: build/libs/peachapisec-burp.jar
+BuildCommand: gradle clean build

@@ -1,0 +1,45 @@
+
+plugins {
+    id 'java'
+    id 'de.fuerstenau.buildconfig' version '1.1.8'
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    compile 'org.apache.commons:commons-csv:1.4'
+    compile 'net.portswigger.burp.extender:burp-extender-api:1.7.22'
+    compile 'com.peachapisecurity:api:0.0.0-SNAPSHOT'
+    compile 'commons-lang:commons-lang:2.6'
+}
+
+buildConfig {
+    appName = rootProject.name  // defined in settings.gradle
+    version = "0.0.0"
+    
+    clsName = 'BuildConfig'
+    packageName = "PeachApi"
+    charset = 'UTF-8'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+        resources {
+            srcDir 'resources'
+            exclude '**.jar'
+        }
+    }
+}
+
+jar {
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
