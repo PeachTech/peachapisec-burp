@@ -1,11 +1,11 @@
 # Peach API Security Burp Extension
 
-This Burp plugin provides integration between Burp and Peach API Security.
+This Burp plugin provides integration between Burp and [Peach API Security](https://peach.tech).
 A license and existing deployment of Peach API Security is required for use.
 
-Peach API Security is an automated security testing solution that allows organizations to test their web APIs against the OWASP Top-10 and PCI Section 6.5. Integrating Peach API Security into your existing Continuous Integration (CI) system ensures that your product development teams receive immediate feedback on the security of your latest release. Organizations use Peach API Security to reveal and correct vulnerabilities in their web APIs.
+[Peach API Security](https://peach.tech) is an automated security testing solution that allows organizations to test their web APIs against the OWASP Top-10 and PCI Section 6.5. Integrating Peach API Security into your existing Continuous Integration (CI) system ensures that your product development teams receive immediate feedback on the security of your latest release. Organizations use Peach API Security to reveal and correct vulnerabilities in their web APIs.
 
-If you would like more information about Peach API Security, please contact our sales team at sales@peach.tech.
+If you would like more information about [Peach API Security](https://peach.tech), please contact our sales team at sales@peach.tech.
 
 ## Current features
 * Perform tests from Burp UI
