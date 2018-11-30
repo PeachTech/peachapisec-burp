@@ -1,4 +1,6 @@
+
 # Peach API Security Burp Extension
+![build status](https://travis-ci.org/PeachTech/peachapisec-burp.svg?branch=master)
 
 This Burp plugin provides integration between Burp and [Peach API Security](https://peach.tech).
 A license and existing deployment of Peach API Security is required for use.
