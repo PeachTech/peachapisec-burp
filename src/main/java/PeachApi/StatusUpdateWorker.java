@@ -109,6 +109,13 @@ public class StatusUpdateWorker extends SwingWorker<Void, Void>
                         {
                             continue;
                         }
+                        
+                        // Currently the API does not return known vulnerabliities correctly
+                        // for now we will skip them
+                        if(fault.assertion.equalsIgnoreCase("Known Vulnerabilities"))
+                        {
+                            continue;
+                        }
 
                         String urlStr = getFaultUrl(fault);
 

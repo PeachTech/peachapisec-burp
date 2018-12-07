@@ -12,7 +12,7 @@ repositories {
 dependencies {
     compile 'org.apache.commons:commons-csv:1.4'
     compile 'net.portswigger.burp.extender:burp-extender-api:1.7.22'
-    compile 'com.peachapisecurity:api:0.0.0-SNAPSHOT'
+    compile 'com.peachapisecurity:api:1.5.25'
     compile 'commons-lang:commons-lang:2.6'
 }
 
