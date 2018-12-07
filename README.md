@@ -8,11 +8,22 @@ Peach API Security is an automated security testing solution that allows organiz
 If you would like more information about Peach API Security, please contact our sales team at sales@peach.tech.
 
 ## Current features
+
 * Perform tests from Burp UI
 * Test results populated as Burp scan issues
-* Export from site map as HAR (HTTP Archive) for use with Peach command line tools
 
-Status: Beta
+## Known Limitations or Issues
+
+1. Peach API Security tab not highlighted while scan is running
+
+ After starting a scan from the Target tab in the Burp UI, a scan
+ progress is shown on the Peach API Security tab in the Burp UI.
+ Due to a limitation of the Burp API, the tab is currently not highlighted.
+
+1. Known Vulnerabilities not shown in Burp UI
+
+ Issues of type "Known Vulnerabilities" are not currently shown in the BURP user interface.
+ To view these issues, access the Peach API Security web UI.
 
 ## License
 
