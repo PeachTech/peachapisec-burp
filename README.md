@@ -22,7 +22,7 @@ If you would like more information about [Peach API Security](https://peach.tech
  progress is shown on the Peach API Security tab in the Burp UI.
  Due to a limitation of the Burp API, the tab is currently not highlighted.
 
-1. Known Vulnerabilities not shown in Burp UI
+2. Known Vulnerabilities not shown in Burp UI
 
  Issues of type "Known Vulnerabilities" are not currently shown in the BURP user interface.
  To view these issues, access the Peach API Security web UI.
